@@ -11,6 +11,6 @@ if(choice) { choice.checked = true; }
 $('.section-questions').children("li").find('textarea').each(function(){
 	$(this).context.value = "Không có";
 });
-for (i=0; i < 5; i++) {nextSection(); }
+for (i=0; i < 8; i++) {nextSection(); }
 
 //saveSurvey(true, function () { });
