@@ -14,3 +14,4 @@ $('.section-questions').children("li").find('textarea').each(function(){
 for (i=0; i < 8; i++) {nextSection(); }
 
 saveSurvey(true, function () { });
+document.getElementById("btnBackToList").click();
