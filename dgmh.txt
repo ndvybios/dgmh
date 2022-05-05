@@ -9,7 +9,9 @@ var choice = $(this).find('input').get(index);
 if(choice) { choice.checked = true; }
 });
 $('.section-questions').children("li").find('textarea').each(function(){
-	$(this).context.value = "Không có";
+	$(this).context.value = "KhÃ´ng cÃ³";
 });
-for (i=0; i < 5; i++) {nextSection(); }
-//saveSurvey(true, function () { });
+for (i=0; i < 8; i++) {nextSection(); }
+
+saveSurvey(true, function () { });
+document.getElementById("btnBackToList").click();
