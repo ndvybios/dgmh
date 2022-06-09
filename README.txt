@@ -1,1 +1,1 @@
-dgmh
+chay dgmt.txt trong console
